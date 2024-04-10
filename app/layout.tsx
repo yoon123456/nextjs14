@@ -4,7 +4,7 @@ import "../styles/global.css";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Next Movies",
+    template: "%s | Movies",
     default: "Next Movies",
   },
   description: "The best movies on the best framework",
