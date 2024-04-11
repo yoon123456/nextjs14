@@ -6,16 +6,6 @@ import { API_URL } from "../constants";
 
 export const metadata: Metadata = {
   title: "Home",
-  openGraph: {
-    title: "next js movies",
-    description: "Movie app for using next js 14",
-    images: [
-      {
-        url: "https://image.tmdb.org/t/p/w780/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
-        alt: "image",
-      },
-    ],
-  },
 };
 
 async function getMovies() {
